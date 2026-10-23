@@ -1,0 +1,26 @@
+{
+  "id": "basil",
+  "name": "Basil",
+  "scientificName": "Ocimum basilicum",
+  "lifeCycle": "annual",
+  "summary": "Tomatoes, pesto and anything summery.",
+  "description": "Basil is an aromatic culinary herb with tender, fragrant leaves.",
+  "usefulInformation": "Popular in pesto, salads and Mediterranean cooking.",
+  "healthBenefits": [
+    "Contains aromatic compounds and plant polyphenols; evidence for specific clinical benefits remains limited."
+  ],
+  "medicinalUses": [
+    "Traditionally used in herbal preparations for digestion; not a substitute for medical treatment."
+  ],
+  "additionalInformation": {
+    "growingTips": "Grow in well-drained soil and adjust watering and sunlight to local conditions.",
+    "harvesting": "Harvest gently, leaving enough growth for the plant to recover.",
+    "gardenNote": "A useful addition to a kitchen and pollinator-friendly herb garden."
+  },
+  "images": [
+    "image/basil-2.jpg",
+    "image/basil-1.jpg",
+    "image/basil-3.jpg"
+  ],
+  "cardImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Closeup_of_basil_for_sale.jpg?width=1200"
+}

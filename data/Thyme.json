@@ -1,0 +1,26 @@
+{
+  "id": "thyme",
+  "name": "Thyme",
+  "scientificName": "Thymus vulgaris",
+  "lifeCycle": "perennial",
+  "summary": "Soups and stews. Bees love its flowers.",
+  "description": "Thyme is a compact, fragrant herb with tiny leaves and delicate flowers.",
+  "usefulInformation": "Add to soups, beans, stews and vegetable roasts.",
+  "healthBenefits": [
+    "Contains thymol and other aromatic compounds; clinical effects depend on preparation and dose."
+  ],
+  "medicinalUses": [
+    "Traditionally used in herbal teas for seasonal comfort."
+  ],
+  "additionalInformation": {
+    "growingTips": "Grow in well-drained soil and adjust watering and sunlight to local conditions.",
+    "harvesting": "Harvest gently, leaving enough growth for the plant to recover.",
+    "gardenNote": "A useful addition to a kitchen and pollinator-friendly herb garden."
+  },
+  "images": [
+    "image/thyme-2.jpg",
+    "image/thyme-1.jpg",
+    "image/thyme-3.jpg"
+  ],
+  "cardImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Closeup_of_lemon_thyme.jpg?width=1200"
+}

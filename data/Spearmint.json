@@ -1,0 +1,26 @@
+{
+  "id": "spearmint",
+  "name": "Spearmint",
+  "scientificName": "Mentha spicata",
+  "lifeCycle": "perennial",
+  "summary": "Fresh tea, and it spreads everywhere.",
+  "description": "Spearmint is a vigorous mint with sweet, refreshing leaves.",
+  "usefulInformation": "Use fresh in tea, salads, sauces and cold drinks.",
+  "healthBenefits": [
+    "Its leaves contain aromatic compounds and antioxidants; human evidence for therapeutic effects is limited."
+  ],
+  "medicinalUses": [
+    "Traditionally enjoyed as a soothing after-meal tea."
+  ],
+  "additionalInformation": {
+    "growingTips": "Grow in well-drained soil and adjust watering and sunlight to local conditions.",
+    "harvesting": "Harvest gently, leaving enough growth for the plant to recover.",
+    "gardenNote": "A useful addition to a kitchen and pollinator-friendly herb garden."
+  },
+  "images": [
+    "image/spearmint-2.jpg",
+    "image/spearmint-1.jpg",
+    "image/spearmint-3.jpg"
+  ],
+  "cardImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Mentha_spicata.jpg?width=1200"
+}

@@ -1,58 +1,10 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>The Little Herb Garden</title>
-  <link rel="icon" href="images/logo.svg" type="image/svg+xml">
-  <link rel="stylesheet" href="style.css">
-  <script src="app.js" defer></script>
-</head>
-<body>
-  <header class="site-header">
-    <img class="logo" src="images/logo.svg" alt="" width="48" height="48">
-    <p class="site-name">The Little Herb Garden</p>
-    <nav>
-      <ul>
-        <li><a href="#herbs">Herbs</a></li>
-        <li><a href="#visit">Visit</a></li>
-        <li><a href="#about">About</a></li>
-      </ul>
-    </nav>
-  </header>
-
-  <main>
-    <section class="intro">
-      <div>
-        <h1>Herbs you can smell, taste and grow</h1>
-        <p>A small garden with herbs for the kitchen, for tea and for the bees.
-          See <a href="#herbs">what grows here</p>
-      </div>
-      <img class="hero" src="images/garden.svg" alt="Two raised beds full of herbs, with a bee">
-    </section>
-
-    <section id="herbs">
-      <h2>What grows here</h2>
-      <p class="count">Loading the herbs…</p>
-      <ul id="herbs-list" class="cards"></ul>
-    </section>
-
-    <section id="visit">
-      <h2>Visit</h2>
-      <p>The garden is open every day from sunrise to sunset.
-        Bring a friend, rub a leaf between your fingers, and leave the bees alone.</p>
-    </section>
-
-    <section id="about">
-      <h2>About</h2>
-      <p>The garden is made up, and so is this site: a practice project for
-        <a href="https://github.com/pepe/culs-frontend-day1">Frontend Development, day 1</a>.</p>
-    </section>
-  </main>
-
-  <footer>
-    <p>Made with HTML, CSS and JavaScript.
-      <a href="https://developer.mozilla.org/">MDN</a> helped.</p>
-  </footer>
-</body>
-</html>
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><meta content="#f4f8f1" name="theme-color"/><meta content="Discover herbs, their growing stories, and the beauty of a little garden." name="description"/><title>The Little Herb Garden | Grow Naturally</title><link href="style.css" rel="stylesheet"/><script defer="" src="app.js"></script></head><body>
+<header class="site-header"><div class="header-inner container"><a class="brand" href="#home"><img alt="" height="55" src="image/herb-logo.svg" width="55"/><span><strong>The Little Herb Garden</strong><small>Grow · Discover · Live Naturally</small></span></a><button aria-controls="site-nav" aria-expanded="false" aria-label="Toggle navigation" class="menu-toggle" id="menu-toggle" type="button"><span></span><span></span><span></span></button><nav aria-label="Main navigation" id="site-nav"><a class="nav-link active" href="#home">Home</a><a class="nav-link" href="#about">About This Little Garden</a><a class="nav-link" href="#herbs">What Grows Here</a><a class="nav-link" href="#visit">Visit My Garden</a><a class="nav-link" href="#contact">Contact</a></nav></div></header>
+<main><section aria-labelledby="hero-title" class="hero" id="home"><div class="container hero-inner"><div class="hero-copy"><h1 id="hero-title">Herbs You Can Smell,<br/><em>Taste &amp; Grow</em></h1><p>Discover the beauty, benefits, and uses of herbs for a healthier and more natural lifestyle.</p><a class="primary-link" href="#herbs">Explore Herbs <span aria-hidden="true">→</span></a></div></div></section>
+<section class="about-section section-pad" id="about"><div class="container about-layout"><div class="about-photo reveal"><img alt="Warm, plant-filled herbal garden shop scene" loading="lazy" src="image/garden-shop.jpg"/><span class="photo-label">Rooted in nature 🌿</span></div><div class="about-content reveal"><span class="eyebrow">OUR STORY</span><h2>About This Little Garden</h2><p>The Little Herb Garden celebrates the everyday beauty of fragrant leaves, fresh ingredients and thoughtful growing. It is a place to discover the herbs that bring color, aroma and inspiration into our kitchens and gardens.</p><p>Our purpose is to make herbal knowledge approachable: from nurturing plants with organic-minded care to understanding their traditional uses and enjoying their scents. Explore the garden digitally, discover each herb's story and take inspiration for your own green space.</p><div class="values"><div><span aria-hidden="true">🌱</span><strong>Our Mission</strong><small>Make herb knowledge accessible</small></div><div><span aria-hidden="true">🍃</span><strong>Grow Mindfully</strong><small>Care for plants and pollinators</small></div><div><span aria-hidden="true">🌼</span><strong>Everyday Wellness</strong><small>Explore herbs with curiosity</small></div></div></div></div></section>
+<section class="herbs-section section-pad" id="herbs"><div class="container"><div class="section-top reveal"><div><span class="eyebrow">OUR HERBS</span><h2>What Grows Here</h2><p aria-live="polite" class="muted" id="herb-count">Loading herbs…</p></div><div class="filters"><label class="visually-hidden" for="herb-search">Search herbs</label><input autocomplete="off" id="herb-search" placeholder="Search herbs by name…" type="search"/><label class="visually-hidden" for="herb-filter">Filter by type</label><select id="herb-filter"><option value="all">All types</option><option value="annual">Annual</option><option value="perennial">Perennial</option></select><label class="visually-hidden" for="herb-sort">Sort herbs</label><select id="herb-sort"><option value="az">Sort A–Z</option><option value="za">Sort Z–A</option></select></div></div><p class="status" id="status" role="status"></p><div class="herb-grid" id="herb-grid"></div></div></section>
+<section class="gallery-section section-pad" id="visit"><div class="container"><div class="section-top reveal"><div><span class="eyebrow">A LITTLE GREEN ESCAPE</span><h2>Visit My Garden</h2><p class="muted">Take a look around and enjoy some moments from the garden.</p></div></div><div class="gallery-grid"><button aria-label="View lavender-bordered garden path" class="gallery-item" data-caption="Lavender-bordered garden path" data-gallery="0" type="button"><img alt="Lavender-bordered garden path" data-fallback="image/gallery-1.jpg" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://www.treeoflife.co.jp/garden/news/images/IMG_0889.jpeg"/><span>View photo ↗</span></button><button aria-label="View basil and herbs in a wooden raised bed" class="gallery-item" data-caption="Basil and herbs in a wooden raised bed" data-gallery="1" type="button"><img alt="Basil and herbs in a wooden raised bed" data-fallback="image/gallery-2.jpg" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://production.streetkitchen-cdn.com/fuszerkert-6RWata.webp"/><span>View photo ↗</span></button><button aria-label="View rosemary and lavender in a medicinal herb bed" class="gallery-item" data-caption="Rosemary and lavender in a medicinal herb bed" data-gallery="2" type="button"><img alt="Rosemary and lavender in a medicinal herb bed" data-fallback="image/gallery-3.jpg" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://inkwell-oasis-s3.s3.us-west-1.amazonaws.com/verdenook/body_01_mid_summer_raised_bed_lavender_chamomile_tulsi_flat_lay_7f095a2617.webp"/><span>View photo ↗</span></button><button aria-label="View chamomile flowers growing in a raised garden bed" class="gallery-item" data-caption="Chamomile flowers growing in a raised garden bed" data-gallery="3" type="button"><img alt="Chamomile flowers growing in a raised garden bed" data-fallback="image/gallery-4.jpg" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://plantes-avenue.fr/85995-thickbox_default/camomille-des-monts.jpg"/><span>View photo ↗</span></button><button aria-label="View spearmint and kitchen herbs in outdoor planters" class="gallery-item" data-caption="Spearmint and kitchen herbs in outdoor planters" data-gallery="4" type="button"><img alt="Spearmint and kitchen herbs in outdoor planters" data-fallback="image/gallery-5.jpg" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://www.gardeningworldlimited.co.uk/shared/images/content/bus_54353/blog/howtogrowaherbgarden.jpg"/><span>View photo ↗</span></button><button aria-label="View garden seating beside herb beds" class="gallery-item" data-caption="Garden seating beside herb beds" data-gallery="5" type="button"><img alt="Garden seating beside herb beds" data-fallback="image/gallery-6.jpg" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://images.divisare.com/images/c_limit%2Cf_auto%2Ch_2000%2Cq_auto%2Cw_3000/v1/project_images/2861794/09_erbabrusca/rgastudio-michele-nastasi-erba-brusca.jpg"/><span>View photo ↗</span></button><button aria-label="View herb harvesting tools and raised beds" class="gallery-item" data-caption="Herb harvesting tools and raised beds" data-gallery="6" type="button"><img alt="Herb harvesting tools and raised beds" data-fallback="image/gallery-7.jpg" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://www.plantingseason.com.au/grow/northern-rivers/guides/northern-rivers-herb-garden/hero.webp"/><span>View photo ↗</span></button><button aria-label="View wide view of a mixed culinary herb planter" class="gallery-item" data-caption="Wide view of a mixed culinary herb planter" data-gallery="7" type="button"><img alt="Wide view of a mixed culinary herb planter" data-fallback="image/gallery-8.jpg" decoding="async" loading="lazy" referrerpolicy="no-referrer" src="https://thelostherbs.com/wp-content/uploads/2025/08/square-foot-medicinal-herbs-gardening.jpg"/><span>View photo ↗</span></button></div><p class="gallery-note">Photo examples from independent gardens and botanical sources; these do not depict one verified physical garden. External images require an internet connection.</p></div></section>
+</main><footer class="footer" id="contact"><div class="container footer-grid"><div><a class="footer-brand" href="#home"><img alt="" height="48" src="image/herb-logo.svg" width="48"/><strong>The Little Herb Garden</strong></a><p>A small digital garden devoted to fragrant herbs, greener living and the joy of discovering nature.</p></div><div><h3>Quick Links</h3><a href="#home">Home</a><a href="#about">About</a><a href="#herbs">Herbs</a><a href="#visit">Gallery</a><a href="#contact">Contact</a></div><div><h3>Popular Herbs</h3><button class="footer-herb" data-herb="Basil">Basil</button><button class="footer-herb" data-herb="Lavender">Lavender</button><button class="footer-herb" data-herb="Rosemary">Rosemary</button><button class="footer-herb" data-herb="Sage">Sage</button><button class="footer-herb" data-herb="Chamomile">Chamomile</button></div><div><h3>Garden Information</h3><p><strong>Opening hours:</strong> Digital garden · available anytime</p><p><strong>Location:</strong> Online only; physical address not provided</p><p><strong>Contact:</strong> Details not yet published</p><p><strong>Email:</strong> Not yet provided</p></div></div><div class="container footer-bottom"><span>© <span id="year"></span> The Little Herb Garden. All rights reserved.</span><span>Designed by Krunal Pandya · 🌿</span></div></footer>
+<div aria-hidden="true" class="modal" id="modal"><div class="modal-backdrop"></div><section aria-labelledby="modal-title" aria-modal="true" class="modal-panel" role="dialog" tabindex="-1"><button aria-label="Close herb details" class="modal-close" id="modal-close" type="button">×</button><div class="modal-layout"><div class="slider"><div class="slider-track" id="slider-track"></div><button aria-label="Previous image" class="slide-control prev" id="prev-slide" type="button">‹</button><button aria-label="Next image" class="slide-control next" id="next-slide" type="button">›</button><div class="slide-dots" id="slide-dots"></div><span aria-live="polite" class="slide-count" id="slide-count"></span></div><div class="modal-content"><span class="eyebrow">HERB PROFILE</span><h2 id="modal-title"></h2><p class="scientific" id="modal-scientific"></p><span class="pill" id="modal-cycle"></span><p class="description" id="modal-description"></p><div id="modal-sections"></div><p class="disclaimer">Educational information only. Consult a qualified clinician before using herbs medicinally.</p></div></div></section></div>
+<div aria-hidden="true" aria-label="Garden photo" aria-modal="true" class="lightbox" id="lightbox" role="dialog"><button aria-label="Close gallery image" id="lightbox-close" type="button">×</button><img alt="Enlarged garden scene" id="lightbox-image"/><span id="lightbox-caption"></span><button aria-label="Previous gallery image" class="lightbox-arrow left" id="lightbox-prev">‹</button><button aria-label="Next gallery image" class="lightbox-arrow right" id="lightbox-next">›</button></div></body></html>

@@ -1,0 +1,26 @@
+{
+  "id": "lavender",
+  "name": "Lavender",
+  "scientificName": "Lavandula angustifolia",
+  "lifeCycle": "perennial",
+  "summary": "Scent for the wardrobe, a feast for bees.",
+  "description": "Lavender is a fragrant flowering perennial loved by pollinators.",
+  "usefulInformation": "Dry flowers for sachets; use food-grade lavender sparingly in recipes.",
+  "healthBenefits": [
+    "Lavender aroma may promote relaxation for some people; evidence varies."
+  ],
+  "medicinalUses": [
+    "Used traditionally in aromatherapy; essential oil should not be ingested."
+  ],
+  "additionalInformation": {
+    "growingTips": "Grow in well-drained soil and adjust watering and sunlight to local conditions.",
+    "harvesting": "Harvest gently, leaving enough growth for the plant to recover.",
+    "gardenNote": "A useful addition to a kitchen and pollinator-friendly herb garden."
+  },
+  "images": [
+    "image/lavender-2.jpg",
+    "image/lavender-1.jpg",
+    "image/lavender-3.jpg"
+  ],
+  "cardImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Lavender_flowers.jpg?width=1200"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "chamomile",
+  "name": "Chamomile",
+  "scientificName": "Matricaria chamomilla",
+  "lifeCycle": "annual",
+  "summary": "A calming cup of tea.",
+  "description": "Chamomile produces small daisy-like flowers used in herbal infusions.",
+  "usefulInformation": "Dry flower heads for a gentle, floral tea.",
+  "healthBenefits": [
+    "May help some people relax; evidence for sleep benefits is mixed."
+  ],
+  "medicinalUses": [
+    "Used traditionally for relaxation; avoid if allergic to related plants."
+  ],
+  "additionalInformation": {
+    "growingTips": "Grow in well-drained soil and adjust watering and sunlight to local conditions.",
+    "harvesting": "Harvest gently, leaving enough growth for the plant to recover.",
+    "gardenNote": "A useful addition to a kitchen and pollinator-friendly herb garden."
+  },
+  "images": [
+    "image/chamomile-2.jpg",
+    "image/chamomile-1.jpg",
+    "image/chamomile-3.jpg"
+  ],
+  "cardImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Chamomile_Farming,_Dhangadi.jpg?width=1200"
+}

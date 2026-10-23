@@ -1,0 +1,26 @@
+{
+  "id": "sage",
+  "name": "Sage",
+  "scientificName": "Salvia officinalis",
+  "lifeCycle": "perennial",
+  "summary": "Butter sauces and tea.",
+  "description": "Sage has soft grey-green leaves and a bold, savory fragrance.",
+  "usefulInformation": "Delicious in browned butter, beans and autumn dishes.",
+  "healthBenefits": [
+    "Contains plant antioxidants; high-dose medicinal preparations can pose risks."
+  ],
+  "medicinalUses": [
+    "Traditionally prepared as tea; avoid concentrated sage oil internally."
+  ],
+  "additionalInformation": {
+    "growingTips": "Grow in well-drained soil and adjust watering and sunlight to local conditions.",
+    "harvesting": "Harvest gently, leaving enough growth for the plant to recover.",
+    "gardenNote": "A useful addition to a kitchen and pollinator-friendly herb garden."
+  },
+  "images": [
+    "image/sage-2.jpg",
+    "image/sage-1.jpg",
+    "image/sage-3.jpg"
+  ],
+  "cardImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Cooking_Sage.jpg?width=1200"
+}

@@ -1,0 +1,26 @@
+{
+  "id": "rosemary",
+  "name": "Rosemary",
+  "scientificName": "Salvia rosmarinus",
+  "lifeCycle": "perennial",
+  "summary": "Potatoes, bread and roast vegetables.",
+  "description": "Rosemary is an evergreen Mediterranean shrub with needle-like leaves.",
+  "usefulInformation": "Pairs well with roasted vegetables, focaccia and infused oil.",
+  "healthBenefits": [
+    "Provides aromatic compounds and antioxidants, but culinary use is not proven to treat disease."
+  ],
+  "medicinalUses": [
+    "Traditionally used in aromatic preparations; concentrated oils require care."
+  ],
+  "additionalInformation": {
+    "growingTips": "Grow in well-drained soil and adjust watering and sunlight to local conditions.",
+    "harvesting": "Harvest gently, leaving enough growth for the plant to recover.",
+    "gardenNote": "A useful addition to a kitchen and pollinator-friendly herb garden."
+  },
+  "images": [
+    "image/rosemary-2.jpg",
+    "image/rosemary-1.jpg",
+    "image/rosemary-3.jpg"
+  ],
+  "cardImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Rosemary_plant.jpg?width=1200"
+}

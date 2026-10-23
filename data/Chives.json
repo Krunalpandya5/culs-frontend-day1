@@ -1,0 +1,26 @@
+{
+  "id": "chives",
+  "name": "Chives",
+  "scientificName": "Allium schoenoprasum",
+  "lifeCycle": "perennial",
+  "summary": "Bread and butter, eggs, potatoes.",
+  "description": "Chives are a mild onion-flavored herb with slender green leaves.",
+  "usefulInformation": "Snip over potatoes, eggs, soups and savory spreads.",
+  "healthBenefits": [
+    "Supplies small amounts of micronutrients and beneficial plant compounds."
+  ],
+  "medicinalUses": [
+    "Primarily valued as a nutritious culinary herb rather than a medicine."
+  ],
+  "additionalInformation": {
+    "growingTips": "Grow in well-drained soil and adjust watering and sunlight to local conditions.",
+    "harvesting": "Harvest gently, leaving enough growth for the plant to recover.",
+    "gardenNote": "A useful addition to a kitchen and pollinator-friendly herb garden."
+  },
+  "images": [
+    "image/chives-2.jpg",
+    "image/chives-1.jpg",
+    "image/chives-3.jpg"
+  ],
+  "cardImage": "https://commons.wikimedia.org/wiki/Special:FilePath/Chives_for_sale.jpg?width=1200"
+}
